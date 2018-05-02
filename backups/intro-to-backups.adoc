@@ -26,7 +26,6 @@ Below are a few examples of times when backups could have saved the day:
 Each of these incidents, and many more, could have been prevented if the unfortunate victims had a proper backup of their valuable files.
 
 == What you will learn
-In this chapter, 
 
 * The 3-2-1 rule for backups
 * The difference between sync and a true backup
@@ -34,4 +33,33 @@ In this chapter,
 
 == The 3-2-1 Rule
 
+A good backup strategy is an example of _defense in depth_.
+There is no place you can put your data that it will be protected from all types of things that could go wrong.
+Because of this issue, computer experts--including the 
+https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf[United States Computer Emergency Readiness Team]--have long advocated for the 3-2-1 backup rule.
+
+The 3-2-1 rule of backups means having 3 copies of your data (one primary copy, and two backups) stored on 2 different media (e.g., hard drive, USB drive, or tape drive) with 1 copy stored offsite.
+Below we talk about the reasons for each of these rules, with ideas for how to implement them.
+
+=== 3 Copies
+One backup is better than no backup, but there is still the chance that both backups could fail at once.
+If your only backup fails, or https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352[is stolen along with your main copy], then you're back to square one with no backup at all.
+
+=== 2 Media
+
+=== 1 Offsite
+
 == Backup vs. Sync
+
+== Personal Backup Plan
+
+* Local
+** Flash Drive
+** USB Hard drive
+* Online Backup
+** Backblaze
+** Carbonite
+* Sync
+** Box
+** Dropbox
+** Google Drive
