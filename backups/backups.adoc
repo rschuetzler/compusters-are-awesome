@@ -1,0 +1,8 @@
+= Personal Backups
+Ryan Schuetzler <rschuetzler@unomaha.edu>
+v0.1 2018-05-02
+
+Today's students store more of their valuable data digitally than ever before.
+For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
+Many people have other personal files as well: photos, tax records, valuable messages, or other things.
+
