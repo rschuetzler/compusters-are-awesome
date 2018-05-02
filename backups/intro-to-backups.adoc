@@ -21,7 +21,17 @@ Below are a few examples of times when backups could have saved the day:
 * DJ Skrillex https://www.altpress.com/news/entry/skrillex_sonny_moore_has_laptops_stolen_containing_new_album/[had a laptop stolen that contained the only copy of his yet-to-be-released album].
 * A rapper http://newsfeed.time.com/2013/01/05/rapper-ryan-leslie-ordered-to-pay-1-2-million-reward-for-lost-laptop/[paid a $1.2 million reward for a lost laptop].
 * A graduate student in Calgary, Alberta https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352[had his laptop and backup hard drive stolen from his car, losing years of work toward a dissertation].
+* https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/[A man's phone died and he lost three years of photos of his children and wife].
+
+Each of these incidents, and many more, could have been prevented if the unfortunate victims had a proper backup of their valuable files.
+
+== What you will learn
+In this chapter, 
+
+* The 3-2-1 rule for backups
+* The difference between sync and a true backup
+* Options for your own personal backups
 
 == The 3-2-1 Rule
 
-== Backup vs. Cloud Sync
+== Backup vs. Sync
