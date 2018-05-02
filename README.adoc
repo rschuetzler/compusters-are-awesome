@@ -23,6 +23,8 @@ This book is an attempt to fix some of that.
 == I have a suggestion!
 I'd love to hear it!
 I'm always interested in learning new things and teaching others.
+Submit it as an issue on 
+https://github.com/rschuetzler/computers-are-awesome[my GitHub repository], or send me an email at [email address to be determined].
 
 == LICENSE
 
