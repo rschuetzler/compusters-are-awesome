@@ -1,8 +1,9 @@
 = Personal Backups
 Ryan Schuetzler <rschuetzler@unomaha.edu>
 v0.1 2018-05-02
+:icons: font
 
-Today's students store more of their valuable data digitally than ever before.
+People today store more of their valuable data digitally than ever before.
 For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
 Many people have other personal files as well: photos, tax records, valuable messages, or other things.
 These files are too important to be stored only in one place.
@@ -17,11 +18,11 @@ Bad things can happen to anyone at any time.
 Data loss can happen to individuals or to large companies, and having a good backup strategy is just as important in both cases.
 Below are a few examples of times when backups could have saved the day:
 
-* https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/[Pixar's Toy Story 2 was accidentally deleted from their servers, and almost lost].
+* https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/[Pixar's Toy Story 2 was accidentally deleted from their servers and almost lost].
 * DJ Skrillex https://www.altpress.com/news/entry/skrillex_sonny_moore_has_laptops_stolen_containing_new_album/[had a laptop stolen that contained the only copy of his yet-to-be-released album].
 * A rapper http://newsfeed.time.com/2013/01/05/rapper-ryan-leslie-ordered-to-pay-1-2-million-reward-for-lost-laptop/[paid a $1.2 million reward for a lost laptop].
 * A graduate student in Calgary, Alberta https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352[had his laptop and backup hard drive stolen from his car, losing years of work toward a dissertation].
-* https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/[A man's phone died and he lost three years of photos of his children and wife].
+* https://www.reddit.com/r/tifu/comments/8fkanp/tifu_by_leaving_my_phone_in_my_pocket/[A man's phone died and he lost three years of photos of his children and wife] cite:[RedditPhoneCrash].
 
 Each of these incidents, and many more, could have been prevented if the unfortunate victims had a proper backup of their valuable files.
 
@@ -45,7 +46,23 @@ Below we talk about the reasons for each of these rules, with ideas for how to i
 One backup is better than no backup, but there is still the chance that both backups could fail at once.
 If your only backup fails, or https://calgary.ctvnews.ca/stolen-laptop-contains-man-s-dreams-1.546352[is stolen along with your main copy], then you're back to square one with no backup at all.
 
+Of course, even with three backups, you might still run into some circumstance where all copies fail at once.
+For the most critical of your files, you might want to go beyond 3-2-1, but if your current backup strategy is "I don't have one," three is a great place to start.
+
 === 2 Media
+The two-media rule of 3-2-1 refers to what types of device your data are stored on.
+The reasoning behind the different media is protection against various types of failure.
+Hard drives in a computer can fail if the computer is bounced around too much during use, but a solid state drive like an SD card or USB Flash drive can survive being jolted a bit.
+
+The earliest forms of the 3-2-1 rule recommended storing data on hard drives and tape drives.
+While tape drives are still used in corporate settings (Sony and IBM recently developed a drive that can hold 330 terabytes cite:[tapedrive2017]), you're probably not going to need one for your personal backup.
+
+What the two-media rule means now for your personal backup is that you'll want to have two local copies of your data on different drives.
+The most common form is to regularly copy important files to a USB Flash drive or removable hard drive.
+That way you'll have an extra local copy in case something happens to your computer.
+
+[IMPORTANT] 
+It's important to remember to _regularly_ back up your files to your local backup drive. Keep in mind that if you only do this backup once a month, you could lose up to a month of work if the main drive fails at the wrong time.
 
 === 1 Offsite
 
@@ -63,3 +80,7 @@ If your only backup fails, or https://calgary.ctvnews.ca/stolen-laptop-contains-
 ** Box
 ** Dropbox
 ** Google Drive
+
+== References
+
+bibliography::[]
