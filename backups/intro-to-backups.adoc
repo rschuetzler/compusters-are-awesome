@@ -2,6 +2,7 @@
 Ryan Schuetzler <rschuetzler@unomaha.edu>
 v0.1 2018-05-02
 :icons: font
+:imagesdir: images
 
 People today store more of their valuable data digitally than ever before.
 For school, assignments, research papers, lab data, class notes, and many other important files are stored on computers.
@@ -9,7 +10,7 @@ Many people have other personal files as well: photos, tax records, valuable mes
 These files are too important to be stored only in one place.
 To protect them from disaster and catastrophe, backups are critical.
 
-Too often we see that devices fail at the worst possible time.
+Too often devices fail at the worst possible time.
 A hard drive crashes the last week of the semester and a month-long graduate research project is lost.
 A phone is stolen, and precious photos of young children are lost forever.
 A laptop is dropped on the ground, and several years of assignments, notes, and a portfolio are lost.
@@ -57,16 +58,63 @@ Hard drives in a computer can fail if the computer is bounced around too much du
 The earliest forms of the 3-2-1 rule recommended storing data on hard drives and tape drives.
 While tape drives are still used in corporate settings (Sony and IBM recently developed a drive that can hold 330 terabytes cite:[tapedrive2017]), you're probably not going to need one for your personal backup.
 
+.Data tapes and a tape drive statement.footnote:[Image credit: Robert Jacek Tomczak, licensed under CC BY-SA 3.0]
+image::tape.jpg[Tape Drive,300]
+
 What the two-media rule means now for your personal backup is that you'll want to have two local copies of your data on different drives.
 The most common form is to regularly copy important files to a USB Flash drive or removable hard drive.
 That way you'll have an extra local copy in case something happens to your computer.
+
+Both Windows and macOS include utilities for setting up a local backup.
+On a Mac, this utility is called Time Machine.
+Time Machine creates a backup of any files you tell it to back up (by default it backs up all of your files, including videos, photos, and documents).
+It will automatically back up your files any time the backup disk is connected.
+On Windows, you can set up your backup under your Update & Security settings in the control panel.
 
 [IMPORTANT] 
 It's important to remember to _regularly_ back up your files to your local backup drive. Keep in mind that if you only do this backup once a month, you could lose up to a month of work if the main drive fails at the wrong time.
 
 === 1 Offsite
 
-== Backup vs. Sync
+The final step of the 3-2-1 rule is to have at least one backup copy that is stored in a separate geographical location--an _offsite backup_.
+The offsite backup protects you in case your computer and local backup get damaged, stolen, or destroyed.
+If your only backup is a USB flash drive at your house, you're out of luck if disaster strikes and your house burns down.
+Similarly, if someone breaks into your house and steals both local copies, your backup would not be much use.
+To protect yourself from these and other potential disasters, it's helpful to have an offsite backup stored in another city, state, or even country (we're not quite advanced enough to put backup personal drives in space, but it's getting there).
+
+In the olden days, an offsite backup meant making a local copy of your data and physically mailing or delivering it to a separate location.
+Business backups still might work this way, because sometimes it is faster to mail a large hard drive than to send lots of data over the Internet.
+Amazon will even mail you a huge bundle of hard drives to fill up with data and mail back to put into Amazon's data center cite:[AmazonSnowball].
+If your needs are large enough, you can order a full truck to send up to 100 petabytes (that's 100,000 terabytes, or 100 million gigabytes) at a time cite:[AmazonSnowmobile].
+
+[quote, Andrew Tanenbaum, Computer Networks 3rd ed.]
+____
+Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway.
+____
+
+For a personal offsite backup, though, most people can use the Internet.
+Several companies offer online backup services that will put a copy of any of your files on their servers where only you can access them.
+Your files will be stored and protected in a data center far from your home, so if disaster strikes you'll have a copy of everything important that you can restore from once you get a computer up and running again.
+These online backup services typically fall into one of two categories: backup and sync.
+
+== Sync vs. Backup
+
+Two different types of service can serve as an offsite backup, depending on your needs, budget, and how important your files are.
+These two types of service are Sync and Backup.
+
+Sync services are designed to synchronize files between computers.
+It could be that you need to work on your files at home or on your work computer, or that you need to share files with other people to collaborate on something.
+The most popular sync services are Google Drive and Dropbox.
+
+Sync services work by creating a folder on your computer.
+Anything that is inside the folder is sent to the sync folder on a server, and all computers with access to the folder get updated whenever a change is made.
+The reason a sync service is not a true backup is because _every_ change, including deleted files, is synced between computers.
+That means any time a file is deleted from one of the computers, it will be deleted from all of them.
+Many sync services provide the ability to "undelete" files for a certain period of time (a few days or up to 30, depending on the service).
+As long as you notice the files missing in time, you may be able to recover them.
+
+[TIP]
+Sync and online backup services only work when the computer is connected to the Internet. If you make changes to a file while not connected, it will be backed up once the computer connects again.
 
 == Personal Backup Plan
 
@@ -80,6 +128,11 @@ It's important to remember to _regularly_ back up your files to your local backu
 ** Box
 ** Dropbox
 ** Google Drive
+
+== Reflection questions
+
+. Why is it important to have more than one backup copy?
+. Describe a situation where you would need to restore from an offsite backup.
 
 == References
 
