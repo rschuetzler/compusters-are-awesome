@@ -30,7 +30,7 @@ Each of these incidents, and many more, could have been prevented if the unfortu
 == What you will learn
 
 * The 3-2-1 rule for backups
-* The difference between sync and a true backup
+* The difference between sync and backup
 * Options for your own personal backups
 
 == The 3-2-1 Rule
@@ -113,8 +113,29 @@ That means any time a file is deleted from one of the computers, it will be dele
 Many sync services provide the ability to "undelete" files for a certain period of time (a few days or up to 30, depending on the service).
 As long as you notice the files missing in time, you may be able to recover them.
 
+A backup service is able to back up any file on your computer, no matter where it is stored.
+When configuring backup software, you tell it where to find the files, and what types of files to back up, and the backup begins.
+During the initial backup, all of the files will be uploaded to the backup servers.
+The initial backup can take a _long_ time (possibly several days, depending on how much data you are sending).
+After the initial backup, only files that have changed are uploaded, so later backups will be much faster than the initial one.
+
+.Comparison of Sync and Backup Services
+|===
+| Function | Sync | Backup 
+
+| Focus
+| Keeping files in sync between different computers
+| Providing a reliable backup of your files
+
+| 
+
+| Storage
+| Typically limited to 1 TB
+| Often "unlimited," though how unlimited that actually is varies
+
+
 [TIP]
-Sync and online backup services only work when the computer is connected to the Internet. If you make changes to a file while not connected, it will be backed up once the computer connects again.
+Sync and online backup services only work when the computer is connected to the Internet. If you make changes to a file while not connected, it will only be backed up once the computer connects again.
 
 == Personal Backup Plan
 
