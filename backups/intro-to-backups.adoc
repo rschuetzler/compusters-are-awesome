@@ -1,8 +1,8 @@
 = Personal Backups
 Ryan Schuetzler <rschuetzler@unomaha.edu>
-v0.1 2018-05-02
+v0.1, 2018-05-02
 :icons: font
-:imagesdir: images
+ifndef::bound[:imagesdir: images]
 :xrefstyle: short
 
 People today store more of their valuable data digitally than ever before.
