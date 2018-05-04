@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rake', '12.0.0'
-gem 'asciidoctor-pdf', '1.5.0.alpha.15'
-# note refer to https://github.com/packetmonkey/prawn-gmagick#amazon-ec2--elastic-beanstalk-installation for prerequisites
-gem 'prawn-gmagick', '0.0.8'
-gem 'pygments.rb', '1.1.1'
+gem 'asciidoctor'
+gem 'asciidoctor-pdf'
+gem 'asciidoctor-bibtex'
+gem 'coderay'
+
+# Added at 2018-05-03 20:56:04 -0500 by chief\ryan:
+gem "unicode_utils", "~> 1.4"
