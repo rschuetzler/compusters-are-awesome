@@ -157,7 +157,7 @@ Now that you understand the value of backups, it's time to make a personal backu
 When you're making your personal backup plan, you have to consider several important points:
 
 . Where is the data stored that you would like to back up? Fifteen years ago this was easy: your computer. Now you might have important files on your computer, your phone, a tablet, or possibly other places.
-. How frequent do backups need to be? Would you be okay if you lost a day's work because you hadn't backed up? An hour? A week?
+. How frequent do backups need to be? Would you be okay if you lost a day's work because you hadn't backed up? An hour? A week? Think about how much it would cost--in terms of time and money--to redo your work if your computer failed at the wrong time.
 . How critical is the data, and how much is it worth to protect? Some types of data are more valuable than others.
 
 As an example, I'll use my own personal situation.
