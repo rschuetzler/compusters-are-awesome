@@ -154,6 +154,12 @@ Sync and online backup services only work when the computer is connected to the 
 == Personal Backup Plan
 
 Now that you understand the value of backups, it's time to make a personal backup plan.
+When you're making your personal backup plan, you have to consider several important points:
+
+. Where is the data stored that you would like to back up? Fifteen years ago this was easy: your computer. Now you might have important files on your computer, your phone, a tablet, or possibly other places.
+. How frequent do backups need to be? Would you be okay if you lost a day's work because you hadn't backed up? An hour? A week?
+. How critical is the data, and how much is it worth to protect? Some types of data are more valuable than others.
+
 As an example, I'll use my own personal situation.
 You many not need all the components I have, or you may decide that some of your data needs more protection.
 
@@ -205,7 +211,13 @@ I haven't used them all, and no nothing about their quality, so do some research
 
 . Why is it important to have more than one backup copy of your files?
 . Describe a situation where you would need to restore from an offsite backup.
+
+== Activities
+
 . Write down your personal backup plan. How will you follow the 3-2-1 rule?
+.. Make a list of what electronic data you need to protect, including where it is stored.
+.. Describe how frequently backups need to happen to protect this data. You might have some data that needs to be backed up more frequently than others. Think about how much it would cost to replace the data (money, time, etc.)
+.. Make a backup plan that follows the 3-2-1 rule. Include specifics of how much it will cost to back up appropriately. Decide if you will use a sync or a backup service, or both. Explain your choices.
 
 == References
 
